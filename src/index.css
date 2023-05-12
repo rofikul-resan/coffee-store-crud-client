@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,4 +14,8 @@ h3 {
 }
 h4 {
   @apply text-xl font-bold;
+}
+
+.form-control .label {
+  @apply font-bold text-xl italic;
 }
